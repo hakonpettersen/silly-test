@@ -1,0 +1,108 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.field label {
+  font-weight: 600;
+}
+
+.input,
+.textarea,
+.select,
+.fileInput {
+  border: 1px solid #cbd5f5;
+  border-radius: 0.75rem;
+  padding: 0.65rem 0.85rem;
+  font-size: 1rem;
+}
+
+.textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.uploadPreview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.previewTile {
+  background: #f8fafc;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  border: 1px dashed #cbd5f5;
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.previewTile img {
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  height: 80px;
+}
+
+.channels {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.channelChip {
+  border: 1px solid #cbd5f5;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  background: #fff;
+}
+
+.channelActive {
+  background: #ecfdf5;
+  border-color: #34d399;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 0.9rem;
+}
+
+.summary {
+  background: #f1f5f9;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nextButton {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 0.9rem;
+  padding: 0.9rem 1.7rem;
+  font-weight: 600;
+}

@@ -1,0 +1,55 @@
+.pageWrapper {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.stepper {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid #cbd5f5;
+  background: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+}
+
+.stepActive {
+  background: #059669;
+  border-color: #059669;
+  color: #fff;
+}
+
+.card {
+  background: #fff;
+  border-radius: 1.25rem;
+  padding: 2rem;
+  box-shadow: 0 15px 45px rgba(15, 23, 42, 0.08);
+}
+
+@media (max-width: 768px) {
+  .pageWrapper {
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 1.25rem;
+  }
+}
